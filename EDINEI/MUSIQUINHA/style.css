@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+}
+.col{
+    width: 45%;
+    font: bold;
+}
+.col2{
+    color: coral;
+}
+.colSideBar{
+    width: 10%;
+}

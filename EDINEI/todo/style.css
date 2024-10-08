@@ -1,0 +1,64 @@
+body{
+    background-color: #ddd;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    display:flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+
+#texto-input{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px
+}
+
+
+#botao{
+    background-color: rgb(134, 230, 134);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#task-list{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#task-list li{
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.edinei{
+    background-color: rgb(91, 243, 85);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.excloi{
+    background-color: rgb(250, 85, 85);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}

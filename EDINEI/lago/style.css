@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color:#0b6b42;
+
+}
+span{
+    color: #FF6600
+}
+img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    background: #ccc;
+    margin: 10px auto;
+}
+header {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #70906a; /* Cor de fundo do cabeçalho */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+ul li a:visited {
+    color: white; /* Cor dos links já visitados */
+}
+ul li a:active {
+    color: black; /* Cor dos links quando clicados */
+}
